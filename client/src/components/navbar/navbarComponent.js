@@ -26,7 +26,7 @@ const Navbar = ({ auth, logout }) => {
     <section className={styles.navbar}>
       <nav>
         <Link to="/" className={styles.title} onClick={closeMenu}>
-          <span>Leaf</span>
+          <span>Fantasy Sunday League</span>
         </Link>
         {auth.isAuthenticated ? (
           <div

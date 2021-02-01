@@ -1,0 +1,12 @@
+section.fixture {
+  .title {
+    text-align: center;
+    margin-top: $margin;
+  }
+
+  div.scoreContainer {
+    margin-top: $margin;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

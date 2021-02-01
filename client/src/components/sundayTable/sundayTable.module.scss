@@ -1,0 +1,30 @@
+section.table {
+  margin: $margin * 2;
+  margin-top: $margin;
+
+  .title {
+    text-align: center;
+    margin-bottom: $margin;
+  }
+
+  .tableContainer {
+    overflow-x: auto;
+
+      table {
+        border: 1px solid lightgray;
+        border-collapse: collapse;
+        width: 90%;
+        margin: auto;
+    
+        th, td {
+          text-align: center;
+          padding: $padding / 4;
+        }
+        tbody {
+          tr:nth-child(odd) {background-color: #f2f2f2;}
+        }
+      }
+  }
+
+  
+}
