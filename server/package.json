@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mocha": "^8.2.1",
+    "mocha": "^10.1.0",
     "mongoose": "^5.9.7",
     "neo-async": "^2.6.2",
     "nyc": "^15.1.0",
